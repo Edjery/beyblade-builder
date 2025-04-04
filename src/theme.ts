@@ -1,13 +1,17 @@
 import { createTheme } from "@mui/material";
-import { flowersLikeEyes, pensiveMood } from "./values/colors";
+import { pensiveMood, velvetPetals } from "./values/colors";
 
 export default createTheme({
     palette: {
         primary: {
-            main: pensiveMood.pewter,
+            main: pensiveMood.white,
         },
         secondary: {
-            main: flowersLikeEyes.charcoal,
+            main: velvetPetals.darkBlue,
+        },
+        text:{
+            primary:pensiveMood.white,
+            secondary: velvetPetals.darkBlue,
         }
     },
     typography: {
