@@ -20,6 +20,10 @@ export const transparency = {
     90: "0F"
 };
 
+// A Royal Bouquet https://www.canva.com/colors/color-palettes/a-royal-bouquet-2/
+export const velvetPetals = {
+    indigo: "#420264", violet: "#5C038C", darkBlue: "#1B1734", purple: "#896FBC"
+}
 // Flowers Like Eyes https://www.canva.com/colors/color-palettes/flowers-like-eyes/
 export const flowersLikeEyes = {
     purple: "#C55FFC", purpleHaze: "#EFDCF9", charcoal: "#323E42", violet: "#7954A1"
